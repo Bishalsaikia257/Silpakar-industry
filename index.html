@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,185 +10,146 @@
       font-family: 'Segoe UI', sans-serif;
       background-color: #f4f0e8;
       color: #3e2c1e;
-    }header {
-  background-color: #7b5e3b;
-  padding: 20px;
-  color: white;
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.logo-container img {
-  width: 60px;
-  height: auto;
-  border-radius: 50%;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
-nav {
-  background-color: #a97c50;
-  padding: 10px;
-  text-align: center;
-}
-
-nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.section {
-  padding: 30px;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.product-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.product-card {
-  background-color: #fff8f0;
-  border: 1px solid #d2b48c;
-  border-radius: 10px;
-  padding: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-
-.product-card img {
-  width: 100%;
-  border-radius: 10px;
-  height: 200px;
-  object-fit: cover;
-}
-
-.buy-button {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 8px 16px;
-  background-color: #7b5e3b;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-footer {
-  background-color: #5c3a21;
-  color: white;
-  text-align: center;
-  padding: 20px 10px;
-  margin-top: 40px;
-}
-
+    }
+    header {
+      background-color: #8b5e3c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+    }
+    .logo-container img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #a7795e;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .product-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .product-card {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid #d2b48c;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .buy-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #8b5e3c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #5c3a21;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
   </style>
 </head>
-<body>  <header>
+<body>
+
+  <header>
     <div class="logo-container">
-      <img src="https://i.imgur.com/IjXTeXG.png" alt="Silpakar Logo">
+      <img src="https://i.imgur.com/IjXTeXG.png" alt="Silpakar Logo" />
       <div>
         <h1 style="margin: 0;">Silpakar Industry</h1>
         <p style="margin: 0;">Honoring Local Handcrafts | Terracotta, Wood, Bamboo & Artistic Passion Since Ancient Times</p>
       </div>
     </div>
-  </header>  <nav>
+  </header>
+
+  <nav>
     <a href="#home">Home</a>
-    <a href="#about">About</a>
     <a href="#shop">Shop</a>
     <a href="#gallery">Gallery</a>
     <a href="#contact">Contact</a>
-  </nav>  <section class="section" id="home">
+  </nav>
+
+  <section class="section" id="home">
     <h2>Welcome to Silpakar Industry</h2>
     <p>Explore Assam's finest traditional handmade products crafted from wood, bamboo, terracotta, and fabric by expert artisans.</p>
-  </section>  <section class="section" id="shop">
+  </section>
+
+  <section class="section" id="shop">
     <h2>Top Selling Handcrafted Products</h2>
     <div class="product-gallery">
-      <section class="section" id="shop">
-  <h2>Top Handcrafted Products</h2>
-  <div class="product-gallery">
-    
-    <!-- Terracotta Vase samples -->
-    <div class="product-card">
-      <img src="https://images.unsplash.com/photo-1622198714765-b10e86c10c18?auto=format&fit=crop&w=600&q=80" alt="Terracotta Vase 1" />
-      <p>Terracotta Vase – ₹850</p>
-      <a href="#" class="buy-button">Buy Now</a>
-    </div>
-    <div class="product-card">
-      <img src="https://images.unsplash.com/photo-1630433306171-8aa1f373b2e6?auto=format&fit=crop&w=600&q=80" alt="Terracotta Vase 2" />
-      <p>Terracotta Vase – ₹850</p>
-      <a href="#" class="buy-button">Buy Now</a>
-    </div>
-    <div class="product-card">
-      <img src="https://images.unsplash.com/photo-1600180758890-c52cfbe0b6b7?auto=format&fit=crop&w=600&q=80" alt="Terracotta Vase 3" />
-      <p>Terracotta Vase – ₹850</p>
-      <a href="#" class="buy-button">Buy Now</a>
-    </div>
-    <div class="product-card">
-      <img src="https://images.unsplash.com/photo-1601455763559-11203d036e88?auto=format&fit=crop&w=600&q=80" alt="Terracotta Vase 4" />
-      <p>Terracotta Vase – ₹850</p>
-      <a href="#" class="buy-button">Buy Now</a>
-    </div>
 
-  </div>
-      </section>
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1622198714765-b10e86c10c18?auto=format&fit=crop&w=600&q=80" alt="Terracotta Vase" />
-        <p>Terracotta Vase – ₹850</p>
-        <a href="#" class="buy-button">Buy Now</a>
-      </div>
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1630433306171-8aa1f373b2e6?auto=format&fit=crop&w=600&q=80" alt="Bamboo Lamp" />
-        <p>Bamboo Hanging Lamp – ₹1,100</p>
-        <a href="#" class="buy-button">Buy Now</a>
-      </div>
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1618331835712-d408e859fb37?auto=format&fit=crop&w=600&q=80" alt="Handwoven Bag" />
-        <p>Handwoven Cotton Bag – ₹750</p>
-        <a href="#" class="buy-button">Buy Now</a>
-      </div>
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1630022921751-b8b6a6e1b689?auto=format&fit=crop&w=600&q=80" alt="Wooden Sculpture" />
-        <p>Antique Wooden Sculpture – ₹1,450</p>
-        <a href="#" class="buy-button">Buy Now</a>
-      </div>
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1635091530426-883dd755e9f4?auto=format&fit=crop&w=600&q=80" alt="Wooden Chandelier" />
-        <p>Designer Wooden Chandelier – ₹30,000</p>
-        <a href="#" class="buy-button">Buy Now</a>
-      </div>
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1622051985513-0ad4f7a7f91f?auto=format&fit=crop&w=600&q=80" alt="Luxury Sculpture" />
-        <p>Luxury Wooden Sculpture – ₹30,00,000</p>
-        <a href="#" class="buy-button">Buy Now</a>
-      </div>
+      <!-- Terracotta -->
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1560185008-5c84b40c79f0" alt="Terracotta Vase"><p>Terracotta Vase – ₹850</p><a href="#" class="buy-button">Buy Now</a></div>
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1617191513531-b10ff40dcbdc" alt="Clay Pot"><p>Traditional Clay Pot – ₹1,200</p><a href="#" class="buy-button">Buy Now</a></div>
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1643648764379-7503034b83f5" alt="Terracotta Lamp"><p>Terracotta Lamp – ₹1,500</p><a href="#" class="buy-button">Buy Now</a></div>
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1588836821888-75e7386b63bb" alt="Clay Sculpture"><p>Mini Clay Sculpture – ₹3,200</p><a href="#" class="buy-button">Buy Now</a></div>
+
+      <!-- Bamboo -->
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1602602061354-318270af4b0f" alt="Bamboo Decor"><p>Bamboo Decor Tray – ₹650</p><a href="#" class="buy-button">Buy Now</a></div>
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1611680009446-2f1a5c321c2c" alt="Bamboo Lamp"><p>Bamboo Hanging Lamp – ₹1,100</p><a href="#" class="buy-button">Buy Now</a></div>
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1578291487931-225c8e33bcf4" alt="Bamboo Basket"><p>Handwoven Bamboo Basket – ₹450</p><a href="#" class="buy-button">Buy Now</a></div>
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1583225152300-cd7187cb3bc5" alt="Bamboo Fan"><p>Bamboo Fan Art – ₹990</p><a href="#" class="buy-button">Buy Now</a></div>
+
+      <!-- Wood -->
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1542131594-54c31f034d3a" alt="Wood Tray"><p>Wooden Tray – ₹2,000</p><a href="#" class="buy-button">Buy Now</a></div>
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1601582053043-3e4185c0717a" alt="Wood Craft"><p>Wood Craft Frame – ₹2,800</p><a href="#" class="buy-button">Buy Now</a></div>
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1571835276277-768b2b7124b7" alt="Wood Utensils"><p>Wood Utensils Set – ₹950</p><a href="#" class="buy-button">Buy Now</a></div>
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1546804504-70a01265de94" alt="Wood Decor"><p>Art Wooden Decor – ₹1,750</p><a href="#" class="buy-button">Buy Now</a></div>
+
+      <!-- Sculptures -->
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1627566920075-0f0c8b7aee56" alt="Wood Sculpture"><p>Antique Sculpture – ₹55,000</p><a href="#" class="buy-button">Buy Now</a></div>
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1624022350572-42a7f1f72fdf" alt="Art Sculpture"><p>Wall Sculpture – ₹1,50,000</p><a href="#" class="buy-button">Buy Now</a></div>
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1601211220814-5a1be65e909d" alt="Decor Statue"><p>Stone Statue – ₹12,00,000</p><a href="#" class="buy-button">Buy Now</a></div>
+      <div class="product-card"><img src="https://images.unsplash.com/photo-1641221541992-b8e1cdb402f1" alt="Classic Idol"><p>Decorative Idol – ₹30,00,000</p><a href="#" class="buy-button">Buy Now</a></div>
     </div>
-  </section>  <section class="section" id="gallery">
-    <h2>Gallery</h2>
-    <div class="product-gallery">
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1627045287901-3e8a26eac457?auto=format&fit=crop&w=600&q=80" alt="Clay Art" />
-        <p>Traditional clay showpieces crafted by expert artisans.</p>
-      </div>
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1615193489073-c4f863d9753c?auto=format&fit=crop&w=600&q=80" alt="Wooden Tray" />
-        <p>Decorative hand-carved wooden tray – natural elegance.</p>
-      </div>
-    </div>
-  </section>  <section class="section" id="contact">
+  </section>
+
+  <section class="section" id="contact">
     <h2>Contact Us</h2>
-    <p>Email: contact@silpakarindustry.com<br>
-       Address: Laluk, North Lakhimpur, Assam<br>
-       Local Stores: Guwahati (Silpakar Craft House), Delhi (Silpakar Gallery Hub)<br>
-       Phone: +91-XXXXXXXXXX</p>
-  </section>  <footer>
-    <p>&copy; 2025 Silpakar Industry. All rights reserved. Celebrating the soul of local craftsmanship.</p>
-  </footer></body>
+    <p>Email: contact@silpakarindustry.com</p>
+    <p>Store Locations:</p>
+    <ul>
+      <li>📍 Guwahati: GS Road, Christian Basti, Assam</li>
+      <li>📍 Delhi: Dilli Haat, INA Market, New Delhi</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Silpakar Industry. All rights reserved. Celebrating the soul of local craftsmanship.</p>
+  </footer>
+</body>
 </html>
