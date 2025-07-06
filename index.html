@@ -9,127 +9,157 @@
       font-family: 'Segoe UI', sans-serif;
       background-color: #f4f0e8;
       color: #3e2c1e;
-    }
-    header {
-      background-color: #7b4b2a;
-      color: white;
-      padding: 20px;
-      text-align: center;
-      background-image: url('https://images.unsplash.com/photo-1603209012850-50b9f9a17e45?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
-      background-size: cover;
-      background-position: center;
-    }
-    header h1 {
-      font-size: 3em;
-      margin: 0;
-      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      background-color: #a47449;
-      padding: 10px 0;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 20px;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .section {
-      padding: 40px 20px;
-      max-width: 1200px;
-      margin: auto;
-    }
-    .product-gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .product-card {
-      background-color: #fff8f0;
-      border: 1px solid #d2b48c;
-      border-radius: 10px;
-      padding: 15px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .product-card img {
-      width: 100%;
-      border-radius: 10px;
-      height: 200px;
-      object-fit: cover;
-    }
-    footer {
-      background-color: #5c3a21;
-      color: white;
-      text-align: center;
-      padding: 20px 10px;
-      margin-top: 40px;
-    }
+    }header {
+  background-color: #7b5e3b;
+  padding: 20px;
+  color: white;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-container img {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  background-color: #a97c50;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.product-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #fff8f0;
+  border: 1px solid #d2b48c;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.buy-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #7b5e3b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #5c3a21;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
   </style>
 </head>
-<body>
-  <header>
-    <h1>Silpakar Industry</h1>
-    <p>Honoring Local Handcrafts | Terracotta, Wood, Bamboo & Artistic Passion Since Ancient Times</p>
-  </header>  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About Us</a>
-    <a href="#shop">Shop</a>
-    <a href="#booking">Book Your Experience</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#contact">Contact Us</a>
-  </nav>  <section class="section" id="home">
-    <h2>Welcome to Silpakar Industry</h2>
-    <p>Explore the richness of Assam’s traditional craftsmanship. Our artisans bring life to wood, clay, and bamboo through intricate handmade designs that speak of culture and heritage.</p>
-  </section>  <section class="section" id="about">
-    <h2>About Us</h2>
-    <p>Silpakar Industry is rooted in the heart of Assam, where generations of artisans have mastered the skills of crafting unique products from bamboo, wood, terracotta, and natural fibers. We celebrate these timeless talents by offering authentic handcrafted items, supporting rural communities, and sharing our art with the world.</p>
-  </section>  <section class="section" id="shop">
-    <h2>Top Selling Handcrafts</h2>
-    <div class="product-gallery">
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1600180758890-c52cfbe0b6b7?auto=format&fit=crop&w=800&q=60" alt="Terracotta Vase">
-        <h3>Terracotta Vase</h3>
-        <p>Elegant clay artistry ideal for home decor. Handmade with traditional Assamese techniques.</p>
-      </div>
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1611078481183-c6039c56ff06?auto=format&fit=crop&w=800&q=60" alt="Bamboo Lamp">
-        <h3>Bamboo Decor Lamp</h3>
-        <p>Beautiful bamboo-woven lighting for natural interiors.</p>
-      </div>
-      <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1598963845634-4f865dcdaf7c?auto=format&fit=crop&w=800&q=60" alt="Handmade Bag">
-        <h3>Handmade Cotton Bag</h3>
-        <p>Stylish & sustainable handwoven bags with traditional motifs.</p>
+<body>  <header>
+    <div class="logo-container">
+      <img src="https://i.imgur.com/IjXTeXG.png" alt="Silpakar Logo">
+      <div>
+        <h1 style="margin: 0;">Silpakar Industry</h1>
+        <p style="margin: 0;">Honoring Local Handcrafts | Terracotta, Wood, Bamboo & Artistic Passion Since Ancient Times</p>
       </div>
     </div>
-  </section>  <section class="section" id="booking">
-    <h2>Book Your Experience</h2>
-    <p>Visit our artisan workshops, learn the process, and create your own masterpiece. Coming soon — online workshop bookings.</p>
+  </header>  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#shop">Shop</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section class="section" id="home">
+    <h2>Welcome to Silpakar Industry</h2>
+    <p>Explore Assam's finest traditional handmade products crafted from wood, bamboo, terracotta, and fabric by expert artisans.</p>
+  </section>  <section class="section" id="shop">
+    <h2>Top Selling Handcrafted Products</h2>
+    <div class="product-gallery">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1622198714765-b10e86c10c18?auto=format&fit=crop&w=600&q=80" alt="Terracotta Vase" />
+        <p>Terracotta Vase – ₹850</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1630433306171-8aa1f373b2e6?auto=format&fit=crop&w=600&q=80" alt="Bamboo Lamp" />
+        <p>Bamboo Hanging Lamp – ₹1,100</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1618331835712-d408e859fb37?auto=format&fit=crop&w=600&q=80" alt="Handwoven Bag" />
+        <p>Handwoven Cotton Bag – ₹750</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1630022921751-b8b6a6e1b689?auto=format&fit=crop&w=600&q=80" alt="Wooden Sculpture" />
+        <p>Antique Wooden Sculpture – ₹1,450</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1635091530426-883dd755e9f4?auto=format&fit=crop&w=600&q=80" alt="Wooden Chandelier" />
+        <p>Designer Wooden Chandelier – ₹30,000</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1622051985513-0ad4f7a7f91f?auto=format&fit=crop&w=600&q=80" alt="Luxury Sculpture" />
+        <p>Luxury Wooden Sculpture – ₹30,00,000</p>
+        <a href="#" class="buy-button">Buy Now</a>
+      </div>
+    </div>
   </section>  <section class="section" id="gallery">
     <h2>Gallery</h2>
     <div class="product-gallery">
       <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1627045287901-3e8a26e3c457?auto=format&fit=crop&w=800&q=60" alt="Terracotta Showpiece">
+        <img src="https://images.unsplash.com/photo-1627045287901-3e8a26eac457?auto=format&fit=crop&w=600&q=80" alt="Clay Art" />
         <p>Traditional clay showpieces crafted by expert artisans.</p>
       </div>
       <div class="product-card">
-        <img src="https://images.unsplash.com/photo-1615193498073-c4f683d9753c?auto=format&fit=crop&w=800&q=60" alt="Wooden Tray">
-        <p>Decorative hand-carved wooden tray — natural elegance.</p>
+        <img src="https://images.unsplash.com/photo-1615193489073-c4f863d9753c?auto=format&fit=crop&w=600&q=80" alt="Wooden Tray" />
+        <p>Decorative hand-carved wooden tray – natural elegance.</p>
       </div>
     </div>
   </section>  <section class="section" id="contact">
     <h2>Contact Us</h2>
     <p>Email: contact@silpakarindustry.com<br>
        Address: Laluk, North Lakhimpur, Assam<br>
+       Local Stores: Guwahati (Silpakar Craft House), Delhi (Silpakar Gallery Hub)<br>
        Phone: +91-XXXXXXXXXX</p>
   </section>  <footer>
     <p>&copy; 2025 Silpakar Industry. All rights reserved. Celebrating the soul of local craftsmanship.</p>
-  </footer>
-</body>
+  </footer></body>
 </html>
