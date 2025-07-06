@@ -5,37 +5,35 @@
   <title>Silpakar Industry</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f4f4f9;
-      color: #333;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f0e8;
+      color: #3e2c1e;
     }
     header {
-      background: url('https://images.unsplash.com/photo-1523413651479-597eb2da0ad6') no-repeat center center/cover;
+      background-color: #7b4b2a;
       color: white;
-      padding: 60px 20px;
+      padding: 20px;
       text-align: center;
+      background-image: url('https://images.unsplash.com/photo-1603209012850-50b9f9a17e45?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
     }
     header h1 {
       font-size: 3em;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 1.3em;
-      font-weight: 300;
+      margin: 0;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     }
     nav {
-      background: #028090;
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
-      padding: 10px;
+      background-color: #a47449;
+      padding: 10px 0;
     }
     nav a {
       color: white;
       text-decoration: none;
-      margin: 8px 15px;
+      margin: 0 20px;
       font-weight: bold;
     }
     nav a:hover {
@@ -46,107 +44,92 @@
       max-width: 1200px;
       margin: auto;
     }
-    .section h2 {
-      color: #028090;
-      margin-bottom: 20px;
-    }
-    .categories {
+    .product-gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
     }
-    .category {
-      background: white;
+    .product-card {
+      background-color: #fff8f0;
+      border: 1px solid #d2b48c;
       border-radius: 10px;
+      padding: 15px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      padding: 20px;
       text-align: center;
     }
-    .category img {
-      max-width: 100%;
-      height: 180px;
-      object-fit: cover;
+    .product-card img {
+      width: 100%;
       border-radius: 10px;
-    }
-    .category h3 {
-      margin-top: 15px;
-      font-size: 1.2em;
+      height: 200px;
+      object-fit: cover;
     }
     footer {
-      background-color: #114b5f;
+      background-color: #5c3a21;
       color: white;
       text-align: center;
-      padding: 20px;
-      margin-top: 30px;
+      padding: 20px 10px;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Silpakar Industry</h1>
-    <p>Authentic Handicrafts from Assam – Crafted with Heritage</p>
+    <p>Honoring Local Handcrafts | Terracotta, Wood, Bamboo & Artistic Passion Since Ancient Times</p>
   </header>  <nav>
-    <a href="#about">About</a>
-    <a href="#products">Products</a>
-    <a href="#categories">Categories</a>
-    <a href="#vision">Vision</a>
-    <a href="#contact">Contact</a>
-  </nav>  <section id="about" class="section">
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#shop">Shop</a>
+    <a href="#booking">Book Your Experience</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact Us</a>
+  </nav>  <section class="section" id="home">
+    <h2>Welcome to Silpakar Industry</h2>
+    <p>Explore the richness of Assam’s traditional craftsmanship. Our artisans bring life to wood, clay, and bamboo through intricate handmade designs that speak of culture and heritage.</p>
+  </section>  <section class="section" id="about">
     <h2>About Us</h2>
-    <p>
-      Silpakar Industry is a craft-based business from Laluk, Assam focused on preserving traditional skills and promoting local artisans. We work closely with rural craftsmen and women to create sustainable livelihoods and showcase their talents across the globe.
-    </p>
-  </section>  <section id="products" class="section">
-    <h2>Featured Products</h2>
-    <div class="categories">
-      <div class="category">
-        <img src="https://images.unsplash.com/photo-1601455763559-11203d036e88" alt="Bamboo Basket">
-        <h3>Bamboo Basket</h3>
-        <p>Eco-friendly handmade basket perfect for home decor and storage.</p>
-      </div>
-      <div class="category">
-        <img src="https://images.unsplash.com/photo-1590080876034-3f0b3e6f2c2f" alt="Handwoven Scarf">
-        <h3>Assamese Handwoven Scarf</h3>
-        <p>Traditional weaving by local women – elegant and vibrant.</p>
-      </div>
-      <div class="category">
-        <img src="https://images.unsplash.com/photo-1588066018884-878b0501ce9a" alt="Terracotta Vase">
+    <p>Silpakar Industry is rooted in the heart of Assam, where generations of artisans have mastered the skills of crafting unique products from bamboo, wood, terracotta, and natural fibers. We celebrate these timeless talents by offering authentic handcrafted items, supporting rural communities, and sharing our art with the world.</p>
+  </section>  <section class="section" id="shop">
+    <h2>Top Selling Handcrafts</h2>
+    <div class="product-gallery">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1600180758890-c52cfbe0b6b7?auto=format&fit=crop&w=800&q=60" alt="Terracotta Vase">
         <h3>Terracotta Vase</h3>
-        <p>Classic pottery design, handcrafted for natural living.</p>
+        <p>Elegant clay artistry ideal for home decor. Handmade with traditional Assamese techniques.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1611078481183-c6039c56ff06?auto=format&fit=crop&w=800&q=60" alt="Bamboo Lamp">
+        <h3>Bamboo Decor Lamp</h3>
+        <p>Beautiful bamboo-woven lighting for natural interiors.</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1598963845634-4f865dcdaf7c?auto=format&fit=crop&w=800&q=60" alt="Handmade Bag">
+        <h3>Handmade Cotton Bag</h3>
+        <p>Stylish & sustainable handwoven bags with traditional motifs.</p>
       </div>
     </div>
-  </section>  <section id="categories" class="section">
-    <h2>Explore by Category</h2>
-    <div class="categories">
-      <div class="category">
-        <img src="https://images.unsplash.com/photo-1571923372059-99e33f80f59b" alt="Bamboo Art">
-        <h3>Bamboo & Cane Art</h3>
+  </section>  <section class="section" id="booking">
+    <h2>Book Your Experience</h2>
+    <p>Visit our artisan workshops, learn the process, and create your own masterpiece. Coming soon — online workshop bookings.</p>
+  </section>  <section class="section" id="gallery">
+    <h2>Gallery</h2>
+    <div class="product-gallery">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1627045287901-3e8a26e3c457?auto=format&fit=crop&w=800&q=60" alt="Terracotta Showpiece">
+        <p>Traditional clay showpieces crafted by expert artisans.</p>
       </div>
-      <div class="category">
-        <img src="https://images.unsplash.com/photo-1585043061641-55d2d0a0f517" alt="Women Weaving">
-        <h3>Women's Weaving</h3>
-      </div>
-      <div class="category">
-        <img src="https://images.unsplash.com/photo-1623931981725-e0fc87fc9b84" alt="Top Selling">
-        <h3>Top Selling</h3>
-      </div>
-      <div class="category">
-        <img src="https://images.unsplash.com/photo-1559563458-527698bf5295" alt="Global Favorites">
-        <h3>Global Favorites</h3>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1615193498073-c4f683d9753c?auto=format&fit=crop&w=800&q=60" alt="Wooden Tray">
+        <p>Decorative hand-carved wooden tray — natural elegance.</p>
       </div>
     </div>
-  </section>  <section id="vision" class="section">
-    <h2>Our Vision</h2>
-    <p>
-      We envision a globally recognized handicraft industry from Assam rooted in tradition, sustainability, and inclusivity. Our mission is to bridge the gap between artisans and global buyers through digital platforms and fair trade practices.
-    </p>
-  </section>  <section id="contact" class="section">
+  </section>  <section class="section" id="contact">
     <h2>Contact Us</h2>
-    <p>Email: contact@silpakarindustry.com</p>
-    <p>Phone: +91-XXXXXXXXXX</p>
-    <p>Location: Laluk, North Lakhimpur, Assam</p>
+    <p>Email: contact@silpakarindustry.com<br>
+       Address: Laluk, North Lakhimpur, Assam<br>
+       Phone: +91-XXXXXXXXXX</p>
   </section>  <footer>
-    &copy; 2025 Silpakar Industry. All rights reserved.
+    <p>&copy; 2025 Silpakar Industry. All rights reserved. Celebrating the soul of local craftsmanship.</p>
   </footer>
-</body> a
+</body>
 </html>
