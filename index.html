@@ -20,24 +20,24 @@
     }
 
     .logo {
-      font-size: 32px;
+      font-size: 30px;
       font-weight: bold;
-      letter-spacing: 2px;
-      font-family: 'Georgia', serif;
+      font-family: Georgia, serif;
+      letter-spacing: 1px;
     }
 
     .logo span {
-      color: #ffdb9b;
+      color: #ffe1a8;
     }
 
     nav {
       position: sticky;
       top: 0;
-      z-index: 1000;
       background-color: #a97458;
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
+      z-index: 100;
     }
 
     nav a {
@@ -57,12 +57,11 @@
       background-color: #fff8f0;
     }
 
-    section h2 {
+    h2 {
       color: #6b4226;
     }
 
     ul {
-      list-style-type: square;
       padding-left: 20px;
     }
 
@@ -74,59 +73,35 @@
     }
 
     .product-card {
+      background: #fcf6ed;
       border: 1px solid #d2b48c;
-      border-radius: 10px;
-      padding: 16px;
-      background-color: #fcf6ed;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
     .product-card h3 {
-      margin-top: 0;
+      margin: 0 0 10px;
       color: #5c3b1c;
     }
 
     .price {
-      font-weight: bold;
       color: #a0532c;
+      font-weight: bold;
     }
 
     .btn {
       display: inline-block;
       margin-top: 10px;
-      padding: 8px 14px;
-      background-color: #8b5e3c;
+      padding: 8px 12px;
+      background: #8b5e3c;
       color: white;
+      border-radius: 5px;
       text-decoration: none;
-      border-radius: 6px;
     }
 
     .btn:hover {
-      background-color: #6f3e22;
-    }
-
-    form {
-      display: grid;
-      max-width: 500px;
-      margin: 0 auto;
-      gap: 15px;
-    }
-
-    input, textarea {
-      padding: 10px;
-      border-radius: 5px;
-      border: 1px solid #c8a97e;
-      font-size: 16px;
-    }
-
-    input[type="submit"] {
-      background-color: #8b5e3c;
-      color: white;
-      cursor: pointer;
-    }
-
-    input[type="submit"]:hover {
-      background-color: #6f3e22;
+      background: #6f3e22;
     }
 
     footer {
@@ -157,11 +132,11 @@
 
   <section id="motive">
     <h2>Our Motive</h2>
-    <p>To revive the ancient handcrafted legacy of Assam by empowering rural artisans and bringing their work to a global platform.</p>
+    <p>To revive Assam’s handcrafted legacy by empowering rural artisans and bringing their work to the world stage.</p>
   </section>
 
   <section id="categories">
-    <h2>Product Categories</h2>
+    <h2>Product Categories & Prices</h2>
     <ul>
       <li>Wooden Artifacts – ₹2,000 to ₹3,00,000</li>
       <li>Terracotta Vases – ₹500 to ₹25,000</li>
@@ -174,67 +149,59 @@
   <section id="bestselling">
     <h2>Best Selling Products</h2>
     <div class="product-grid">
-
       <div class="product-card">
-        <h3>Heritage Terracotta Vase</h3>
+        <h3>Terracotta Heritage Vase</h3>
         <p class="price">₹12,500</p>
-        <a href="#contact" class="btn">Inquire Now</a>
+        <a class="btn" href="https://wa.me/91XXXXXXXXXX?text=I%20want%20to%20buy%20Terracotta%20Heritage%20Vase" target="_blank">Inquire on WhatsApp</a>
       </div>
-
       <div class="product-card">
-        <h3>Vintage Assamese Wood Sculpture</h3>
+        <h3>Assamese Wood Sculpture</h3>
         <p class="price">₹85,000</p>
-        <a href="#contact" class="btn">Inquire Now</a>
+        <a class="btn" href="https://wa.me/91XXXXXXXXXX?text=I%20want%20to%20buy%20Wood%20Sculpture" target="_blank">Inquire on WhatsApp</a>
       </div>
-
       <div class="product-card">
-        <h3>Traditional Bamboo Jewelry Box</h3>
+        <h3>Bamboo Jewelry Box</h3>
         <p class="price">₹3,500</p>
-        <a href="#contact" class="btn">Inquire Now</a>
+        <a class="btn" href="https://wa.me/91XXXXXXXXXX?text=I%20want%20to%20buy%20Bamboo%20Jewelry%20Box" target="_blank">Inquire on WhatsApp</a>
       </div>
-
       <div class="product-card">
-        <h3>Antique Brass Embedded Panel</h3>
+        <h3>Antique Wooden Panel</h3>
         <p class="price">₹1,50,000</p>
-        <a href="#contact" class="btn">Inquire Now</a>
+        <a class="btn" href="https://wa.me/91XXXXXXXXXX?text=I%20want%20to%20buy%20Antique%20Panel" target="_blank">Inquire on WhatsApp</a>
       </div>
-
     </div>
   </section>
 
   <section id="workshop">
     <h2>Workshop Experience</h2>
-    <p>Visitors and learners get hands-on training with expert artisans, learning ancient crafting methods with wood, clay, and natural dyes. Workshop entry starts from ₹500 per session.</p>
+    <p>Join hands-on craft sessions with local artisans. Learn wood carving, pottery, and bamboo work. Entry starts at ₹500.</p>
   </section>
 
   <section id="culture">
-    <h2>Rich Culture</h2>
-    <p>Silpakar reflects Assam’s deep-rooted culture through every design, from traditional motifs to stories carved in wood and molded in clay.</p>
+    <h2>Rich Cultural Heritage</h2>
+    <p>Inspired by ancient Assamese traditions — each product tells a story of skill, soil, and soul.</p>
   </section>
 
   <section id="places">
-    <h2>Places</h2>
-    <p>Our handicrafts come from various parts of Assam – Laluk, Majuli, Tezpur – each with its unique traditional art style.</p>
+    <h2>Places of Craft</h2>
+    <p>Our products are made across Laluk, Majuli, Tezpur, and other heritage-rich towns of Assam.</p>
   </section>
 
   <section id="about">
     <h2>About Us</h2>
-    <p>Silpakar Industry is a community-driven initiative built by local artisans, designed to protect, preserve, and promote Assam’s handcrafted art to the world.</p>
+    <p>Silpakar Industry is a local business formed by skilled artisans of North Lakhimpur, aiming to promote sustainable handicrafts and fair earnings.</p>
   </section>
 
   <section id="contact">
-    <h2>Contact / Product Inquiry</h2>
-    <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" rows="5" placeholder="Your Message or Product Inquiry..." required></textarea>
-      <input type="submit" value="Send Message" />
-    </form>
+    <h2>Contact Us</h2>
+    <p><strong>📍 Location:</strong> Laluk, North Lakhimpur, Assam</p>
+    <p><strong>📞 Phone:</strong> +91 XXXXX-XXXXX</p>
+    <p><strong>📩 Email:</strong> contact@silpakarindustry.com</p>
+    <p><strong>💬 WhatsApp:</strong> <a class="btn" href="https://wa.me/91XXXXXXXXXX" target="_blank">Chat Now</a></p>
   </section>
 
   <footer>
     <p>&copy; 2025 Silpakar Industry. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
